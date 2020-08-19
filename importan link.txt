@@ -1,0 +1,39 @@
+ragib.html/rasel
+https://l.facebook.com/l.php?u=http%3A%2F%2Fragib.me%2Frasel.html%3Ffbclid%3DIwAR1KYp1wVQD-Pdu4a7p3OAHnCI5rQg3o7B3BOzfndW9QhSP7n47JHwB4abo&h=AT03wlQkK-QfL7yN1b170o0T2yiMdpMHZy0gUjbQ9O4LoqkjUJETvpYWjbkWo9kJOwR5XtAKQ18kb8O2mZBB58hmxNFt4sT0BxtBLVA42tM2YPjDtwH5TTSaggp6AlA-htuGag
+
+
+github
+emai:raselamin04081999@gmail.com
+pass:Rasel@Amin1999
+
+git command:
+1.git add .
+2.git status
+3.git commit -m"......."
+4.git push origin master
+5.git log --oneline
+6.kon branch e achi dekhte caile 
+>>git branch
+7..notun branch add korte hole 
+>>git branch branch er name
+
+9.ek branch theke onno branch e jete hole
+>>git checkout brance name
+10.branch k master branch e add korte hole
+>>git merge branch name
+10.kono branch checkout o create eksathe korte hole
+>>git checkout -b branch name
+11.>>git init
+12.>>git clone link
+
+
+
+
+
+
+
+
+
+git problem:
+1.conflict asena
+2.push korle username pass cai na

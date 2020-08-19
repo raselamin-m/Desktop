@@ -1,0 +1,60 @@
+//single line variable
+$color : blue;
+$border : 10px solid black;
+$height : 200px;
+body{
+    background-color:$color;
+    height: $height;
+}
+
+//Extend/inharitance
+%commonsection{
+    padding: 20px;
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    background-color: aqua;
+}
+
+.about-us{
+    @extend %commonsection;
+}
+.portfolio{
+    @extend %commonsection;
+    border: 2px solid black;
+}
+
+//nesting
+ul{
+    li{
+        list-style: none;
+    }
+    a{
+        text-decoration: underline;
+    }
+    ul{
+        width: 300px;
+        ul{
+            width: 300px;
+        }
+    }
+}
+
+// import
+@import 'rasel1';
+
+//mixin
+@mixin transform($property) {
+    -webkit-transform: $property;
+    -ms-transform: $property;
+    transform: $property;
+  }
+  .box { @include transform(rotate(30deg));
+width: 100px;
+height: 100px;
+border:5px solid red ;
+margin: auto;}
+
+.col{
+    width: 4/12*100%;
+}
