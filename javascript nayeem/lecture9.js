@@ -29,5 +29,5 @@ people.sort(function(a,b){
         return 0;
     }
 
-});
+});  
 console.log(people);
